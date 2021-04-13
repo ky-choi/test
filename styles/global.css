@@ -59,14 +59,15 @@ nav ul { flex:2;
         center; margin: 0; 
     } 
     
-nav ul li { padding-right: 20px; padding-left: 20px;
+nav ul li { padding-right: 10px; 
             font-size: 20px; 
             display: flex; 
             align-items: flex-start; 
             font-family: 'Noto Sans KR', sans-serif;
             font-weight: 600;
     } 
-nav ul li a { 
+nav ul li a {
+    padding-right: 10px; padding-left: 10px;
     font-size: 18px; 
     display: flex; 
     align-items: flex-start;
