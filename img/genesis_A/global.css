@@ -1,0 +1,84 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+h1 {color:crimson;}
+
+#title{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 150px;
+    font-weight: 100;
+
+    margin: 30px;
+    width:90%;
+
+    align-content: flex-start;
+}
+
+table {
+    border:none;
+    width:100%;
+}
+
+#sub{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+
+    width:100%;
+
+    text-align:end;
+    align-content: flex-start;
+    display:inline-flexbox;
+
+}
+
+.footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 6%;
+    background-color:rgb(52, 106, 255);
+}
+
+/* common */ 
+ul { list-style: none; }
+/* nav */ 
+nav { 
+    display: flex; 
+    justify-content: 
+    center; align-items: 
+    center; padding: 10px; 
+} 
+    
+nav ul { flex:2; 
+        display: flex; 
+        justify-content: 
+        flex-start; align-items: 
+        center; margin: 0; 
+    } 
+    
+nav ul li { padding-right: 10px; 
+            font-size: 18px; 
+            display: flex; 
+            
+            align-content: center; 
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 600;
+    } 
+nav ul li a {
+    padding-right: 5px; padding-left: 5px;
+    font-size: 16px; 
+    display: flex; 
+    align-content: center; 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    color:black 
+    }
+
+a:link { text-decoration:none }
+a:visited { text-decoration:none }
+a:active { text-decoration:none }
+a:hover { color: cornflowerblue; }
+
+    
