@@ -21,14 +21,13 @@ table {
 
 #sub{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
 
-    width:100%;
+    width:  60%;
+    margin: 30px;
 
-    text-align:end;
-    align-content: flex-start;
-    display:inline-flexbox;
+    text-align:start;
 
 }
 
