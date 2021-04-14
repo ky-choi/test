@@ -42,22 +42,14 @@ table {
 }
 
 
-p {
-    border: royalblue, 1px;
-    border-radius: 10px;
-}
 
 .header {
     position: fixed; 
-    top: 0;
+    margin-top: 0;
     left: 0;
     right: 0;
     height: 6%;
-<<<<<<< HEAD
     background-color:#009EE2;
-=======
-    background-color:#00A3E3;
->>>>>>> 4230f7a63c27f507832e58730e8c3fd48d6ae205
 }
 
 /* common */ 
