@@ -24,12 +24,23 @@ table {
     font-size: 40px;
     font-weight: 600;
 
-    width:  60%;
+    width: 800px;
     margin: 30px;
 
-    text-align:start;
-
+    text-align:left;
 }
+
+#sub2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+
+    width: 800px;
+    margin: 30px;
+
+    text-align:left;
+}
+
 
 .footer {
     position: fixed; 
