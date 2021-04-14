@@ -5,8 +5,8 @@ h1 {color:crimson;}
 
 #title{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 150px;
-    font-weight: 100;
+    font-size: 100px;
+    font-weight: 500;
 
     margin: 30px;
     width:90%;
@@ -16,12 +16,12 @@ h1 {color:crimson;}
 
 table {
     border:none;
-    width:100%;
+    width:90%;
 }
 
 #sub{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
 
     width: 800px;
@@ -32,8 +32,8 @@ table {
 
 #sub2{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 300;
 
     width: 800px;
     margin: 30px;
@@ -42,13 +42,18 @@ table {
 }
 
 
-.footer {
+p {
+    border: royalblue, 1px;
+    border-radius: 10px;
+}
+
+.header {
     position: fixed; 
-    bottom: 0;
+    top: 0;
     left: 0;
     right: 0;
     height: 6%;
-    background-color:rgb(52, 106, 255);
+    background-color:#009EE2;
 }
 
 /* common */ 
@@ -56,9 +61,11 @@ ul { list-style: none; }
 /* nav */ 
 nav { 
     display: flex; 
-    justify-content: 
-    center; align-items: 
-    center; padding: 10px; 
+    justify-content: center;
+    align-items: center; 
+    padding-top: 10PX;
+    padding-bottom: 10PX;
+    background-color:#009EE2;
 } 
     
 nav ul { flex:2; 
@@ -77,18 +84,18 @@ nav ul li { padding-right: 10px;
             font-weight: 600;
     } 
 nav ul li a {
-    padding-right: 5px; padding-left: 5px;
+    padding-right: 5PX; padding-left: 5px;
     font-size: 16px; 
     display: flex; 
     align-content: center; 
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
-    color:black 
+    color: white; 
     }
 
-a:link { text-decoration:none }
-a:visited { text-decoration:none }
-a:active { text-decoration:none }
-a:hover { color: cornflowerblue; }
+a:link { text-decoration:none; }
+a:visited { text-decoration:none; }
+a:active { text-decoration:none; }
+a:hover { color:rebeccapurple; }
 
     
